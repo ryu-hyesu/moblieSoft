@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun onMyClick(view: View?){
+        Toast.makeText(this, "on My Click!", Toast.LENGTH_SHORT).show()
+    }
+
     // 이벤트 리스너
     // 인터페이스는 선언만 있기 때문에 구현하는 class를 만들어 내용을 채워야 한다.
     inner class ClickEvent : View.OnClickListener {
