@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
     override fun onTouchEvent(event: MotionEvent?): Boolean {
 
         when(event?.action){
